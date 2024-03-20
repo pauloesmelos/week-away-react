@@ -7,7 +7,7 @@ const Activies = () => { // activies - resorts, cruises e dives
         <div className="w-full max-w-[1100px] mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-6
         h-[700px] md:h-[250px]">
             {/* cards with images */}
-            <div className="border-[5px] shadow-xl relative rounded-md overflow-hidden group">
+            <div className="border-[5px] shadow-xl relative rounded-md overflow-hidden group cursor-default">
                 <img 
                     src={data.imgs.activies[0].url}
                     alt={data.imgs.activies[0].title}
@@ -19,7 +19,7 @@ const Activies = () => { // activies - resorts, cruises e dives
                     {data.imgs.activies[0].title}
                 </h3>
             </div>
-            <div className="border-[5px] shadow-xl relative rounded-md overflow-hidden group">
+            <div className="border-[5px] shadow-xl relative rounded-md overflow-hidden group cursor-default">
                 <img 
                     src={data.imgs.activies[1].url} 
                     alt={data.imgs.activies[1].title} 
@@ -31,7 +31,7 @@ const Activies = () => { // activies - resorts, cruises e dives
                     {data.imgs.activies[1].title}
                 </h3>
             </div>
-            <div className="border-[5px] shadow-xl relative rounded-md overflow-hidden group">
+            <div className="border-[5px] shadow-xl relative rounded-md overflow-hidden group cursor-default">
                 <img 
                     src={data.imgs.activies[2].url} 
                     alt={data.imgs.activies[2].title} 
